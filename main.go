@@ -16,7 +16,7 @@ func main() {
 
 func Generator(n int) (arr []int) {
 	for i := 1; i <= n; i++ {
-		arr = append(arr, i)
+		arr = append(arr, i*i)
 	}
 	return
 }
